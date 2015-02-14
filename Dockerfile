@@ -16,7 +16,7 @@ RUN wget -nv http://ufpr.dl.sourceforge.net/project/jbpm/jBPM%206/jbpm-${JBPM_VE
 
 RUN  unzip -q /tmp/jbpm-${JBPM_VERSION}-installer-full.zip -d ${JBPM_HOME}
 WORKDIR /opt/jbpm/jbpm-installer/
-RUN ant install.demo
+RUN ant install.demo.noeclipse
  
 EXPOSE 8080 
-CMD ["ant","start.demo]
+CMD ["ant","start.jboss"]
