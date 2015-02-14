@@ -1,6 +1,6 @@
 
 FROM  dockerfile/java:oracle-java7
-MAINTAINER Wellington Marinho wpmarinho@globo.com
+MAINTAINER Monami-ya LLC, Japan support@monami-ya.com
 
 ENV JBPM_VERSION 6.1.0.Final
 ENV JBPM_HOME /opt/jbpm 
