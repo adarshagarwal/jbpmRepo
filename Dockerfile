@@ -1,5 +1,5 @@
 
-FROM wmarinho/ubuntu:oracle-jdk-7
+FROM  dockerfile/java:oracle-java7
 MAINTAINER Wellington Marinho wpmarinho@globo.com
 
 ENV JBPM_VERSION 6.1.0.Final
