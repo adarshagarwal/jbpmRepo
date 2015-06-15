@@ -1,5 +1,5 @@
 
-FROM  dockerfile/java:oracle-java7
+FROM  openjdk-7-jdk/Dockerfile
 MAINTAINER Monami-ya LLC, Japan "support@monami-ya.com"
 
 ENV JBPM_VERSION 6.1.0.Final
